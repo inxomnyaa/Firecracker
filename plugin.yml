@@ -1,0 +1,17 @@
+  name: Firecracker
+  main: thebigsmileXD\Firecracker\Main
+  version: 0.1.2
+  api: 1.0.0
+  load: POSTWORLD
+  authors: [thebigsmileXD]
+  prefix: "Firecracker"
+  commands:
+   firecracker:
+    description: "Commands for Firecracker"
+    usage: "/firecracker get"
+    permission: firecracker.command
+    aliases: [fc]
+  permissions:
+    firecracker.command:
+      description: Permission for /firecracker commands.
+      default: true

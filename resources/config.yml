@@ -1,0 +1,6 @@
+---
+# the time after you get new items in seconds
+give-items-after: 30
+# the name of the firecracker
+translation: "Firecracker"
+...
