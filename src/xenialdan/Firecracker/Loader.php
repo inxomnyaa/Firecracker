@@ -41,7 +41,7 @@ class Loader extends PluginBase implements Listener
         $item->setLore(["Drop me and i will explode!"]);
         self::$brick = $item;
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info(TextFormat::GOLD . "Happy new Year! Be safe!");
+        #$this->getLogger()->info(TextFormat::GOLD . "Happy new Year! Be safe!");
         $this->getScheduler()->scheduleDelayedRepeatingTask(new ClosureTask(function (int $currentTick): void {
             $this->makeParticleSound();
         }), 20, 20);
