@@ -1,7 +1,7 @@
   name: Firecracker
   main: xenialdan\Firecracker\Loader
   version: 1.0.0
-  api: ["3.11.0","3.11.1"]
+  api: ["3.11"]
   load: POSTWORLD
   authors: [XenialDan]
   prefix: "Firecracker"
