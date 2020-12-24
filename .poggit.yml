@@ -1,6 +1,7 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/thebigsmileXD/Firecracker
 branches:
 - master
+- PM4
 projects:
   Firecracker:
     path: ""
